@@ -1,0 +1,45 @@
+.s-hero {
+  width: 100%;
+  height: 70rem;
+  background: url("../img/hero-img.png") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 19.1rem;
+
+  .text {
+    @include flex(column, space-between, start);
+    h2 {
+      margin-bottom: 3.5rem;
+      color: rgba($white-brand, 0.7);
+      font-family: "Inter";
+      font-weight: 500;
+      font-size: 1.5rem;
+      line-height: 150%;
+      &::before {
+        content: "Novo";
+        display: inline-block;
+        background-color: #006d8f;
+        color: $white-brand;
+        padding: 0.5rem 1.5rem;
+        border-radius: 10rem;
+        margin-right: 1.2rem;
+      }
+    }
+    h1 {
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 5rem;
+      line-height: 130%;
+      color: $white-brand;
+      margin-bottom: 2.5rem;
+    }
+    p {
+      font-family: "Inter";
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 150%;
+      color: rgba($white-brand, 0.7);
+      margin-bottom: 4rem;
+    }
+  }
+}
