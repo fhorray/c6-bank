@@ -8,7 +8,7 @@
 
   .text {
     @include flex(column, space-between, start);
-    h2 {
+    h3 {
       margin-bottom: 3.5rem;
       color: rgba($white-brand, 0.7);
       font-family: "Inter";
@@ -40,6 +40,94 @@
       line-height: 150%;
       color: rgba($white-brand, 0.7);
       margin-bottom: 4rem;
+    }
+  }
+}
+
+.s-tariffs {
+  padding-top: 9.6rem;
+  .container {
+    @include flex(row, space-between, start);
+  }
+
+  .text {
+    h2 {
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 130%;
+      letter-spacing: -0.03em;
+      color: $black-brand;
+      margin-bottom: 0.8rem;
+    }
+    p {
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 2.8rem;
+      line-height: 130%;
+      color: $gray-brand;
+      margin-bottom: 10rem;
+    }
+
+    .benefits {
+      @include flex(row, space-between, start);
+      width: 100%;
+      max-width: 62.5rem;
+      flex-wrap: wrap;
+
+      .benefit {
+        @include flex(column, space-between, start);
+        width: 100%;
+        max-width: 25.9rem;
+        img {
+          margin-bottom: 1.1rem;
+        }
+        h4 {
+          font-family: "Montserrat";
+          font-weight: 500;
+          font-size: 1.8rem;
+          line-height: 150%;
+          color: $black-brand;
+
+          &::before {
+            content: "";
+            display: block;
+            background-color: $yellow-brand;
+            width: 1.5rem;
+            height: 0.2rem;
+            margin-bottom: 1.6rem;
+          }
+        }
+        p {
+          font-family: "Inter";
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 150%;
+          color: $gray-brand;
+        }
+      }
+    }
+  }
+
+  .cards {
+    @include flex(row, space-between, center);
+    gap: 2.8rem;
+
+    .left-cards,
+    .right-cards {
+      @include flex(column, space-between, center);
+      gap: 1.8rem;
+      img {
+        max-width: 20rem;
+      }
+    }
+    .left-cards {
+      .white-card {
+        box-shadow: 2rem 1rem 6rem rgba($black-brand, 0.2);
+      }
+    }
+    .right-cards {
+      margin-top: -34.7rem;
     }
   }
 }

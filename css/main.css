@@ -105,14 +105,14 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: start; }
-    .s-hero .text h2 {
+    .s-hero .text h3 {
       margin-bottom: 3.5rem;
       color: rgba(255, 255, 255, 0.7);
       font-family: "Inter";
       font-weight: 500;
       font-size: 1.5rem;
       line-height: 150%; }
-      .s-hero .text h2::before {
+      .s-hero .text h3::before {
         content: "Novo";
         display: inline-block;
         background-color: #006d8f;
@@ -134,3 +134,82 @@ header {
       line-height: 150%;
       color: rgba(255, 255, 255, 0.7);
       margin-bottom: 4rem; }
+
+.s-tariffs {
+  padding-top: 9.6rem; }
+  .s-tariffs .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start; }
+  .s-tariffs .text h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 130%;
+    letter-spacing: -0.03em;
+    color: #242424;
+    margin-bottom: 0.8rem; }
+  .s-tariffs .text p {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height: 130%;
+    color: #616161;
+    margin-bottom: 10rem; }
+  .s-tariffs .text .benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    max-width: 62.5rem;
+    flex-wrap: wrap; }
+    .s-tariffs .text .benefits .benefit {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+      width: 100%;
+      max-width: 25.9rem; }
+      .s-tariffs .text .benefits .benefit img {
+        margin-bottom: 1.1rem; }
+      .s-tariffs .text .benefits .benefit h4 {
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 150%;
+        color: #242424; }
+        .s-tariffs .text .benefits .benefit h4::before {
+          content: "";
+          display: block;
+          background-color: #ffce2e;
+          width: 1.5rem;
+          height: 0.2rem;
+          margin-bottom: 1.6rem; }
+      .s-tariffs .text .benefits .benefit p {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #616161; }
+  .s-tariffs .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.8rem; }
+    .s-tariffs .cards .left-cards,
+    .s-tariffs .cards .right-cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.8rem; }
+      .s-tariffs .cards .left-cards img,
+      .s-tariffs .cards .right-cards img {
+        max-width: 20rem; }
+    .s-tariffs .cards .left-cards .white-card {
+      box-shadow: 2rem 1rem 6rem rgba(36, 36, 36, 0.2); }
+    .s-tariffs .cards .right-cards {
+      margin-top: -34.7rem; }
