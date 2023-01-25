@@ -213,3 +213,173 @@ header {
       box-shadow: 2rem 1rem 6rem rgba(36, 36, 36, 0.2); }
     .s-tariffs .cards .right-cards {
       margin-top: -34.7rem; }
+
+.s-card {
+  background-color: #fafafa;
+  padding: 10.9rem 0; }
+  .s-card .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 8.7rem;
+    width: 100%; }
+  .s-card .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; }
+    .s-card .top .title h3 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 130%;
+      letter-spacing: -0.03em;
+      color: #242424; }
+    .s-card .top .title p {
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 2.8rem;
+      line-height: 130%;
+      color: #616161; }
+    .s-card .top .for-u-btns {
+      max-width: 59.2rem;
+      padding: 0.8rem 1.1rem;
+      border: 1px solid rgba(196, 196, 196, 0.6);
+      border-radius: 100rem; }
+      .s-card .top .for-u-btns button:first-child {
+        margin-right: 3.3rem; }
+      .s-card .top .for-u-btns .btn-active {
+        padding: 1.8rem 8.5rem;
+        background-color: #242424;
+        color: #fff;
+        border-radius: 100rem;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 1.25rem;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase; }
+      .s-card .top .for-u-btns .btn-disabled {
+        padding: 1.8rem 5.5rem;
+        background-color: transparent;
+        color: #616161;
+        border-radius: 100rem;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase; }
+  .s-card .down {
+    width: 100%;
+    height: 42.4rem;
+    background-color: #242424;
+    padding-left: 10.3rem;
+    padding-right: 7.2rem;
+    border-radius: 1.2rem;
+    background: url("../img/about-bg.png") no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative; }
+    .s-card .down .title {
+      max-width: 37.1rem;
+      margin-top: 9.7rem; }
+      .s-card .down .title h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 130%;
+        letter-spacing: -0.03em;
+        margin-bottom: 1.6rem; }
+      .s-card .down .title p {
+        margin-bottom: 4.4rem;
+        opacity: 0.7;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%; }
+    .s-card .down .nfc {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      gap: 1.6rem; }
+      .s-card .down .nfc p {
+        margin: 0; }
+    .s-card .down .logo-business {
+      position: absolute;
+      right: 7.2rem;
+      bottom: 5.3rem; }
+    .s-card .down .floating-card {
+      position: absolute;
+      max-width: 43rem;
+      right: 21.7rem;
+      bottom: 8.6em; }
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+footer .columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(36, 36, 36, 0.4); }
+  footer .columns .col-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+    max-width: 30.6rem; }
+    footer .columns .col-one a {
+      font-weight: 700;
+      color: #242424; }
+  footer .columns .col-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2.5rem; }
+    footer .columns .col-two h4 {
+      font-family: "Inter";
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 78%; }
+    footer .columns .col-two ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 2.1rem; }
+      footer .columns .col-two ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem; }
+  footer .columns .col-three h4 {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 78%;
+    margin-bottom: 2.5rem; }
+  footer .columns .col-three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start; }
+
+footer .copy {
+  padding: 2.7rem 0; }
